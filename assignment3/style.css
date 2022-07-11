@@ -7,7 +7,7 @@
 
 border: none;
 background-color: black;
-color: #61122F;
+color: #61145F;
 }
 body{
 	background-color: #61122F;
@@ -20,12 +20,12 @@ body{
 
 .center{
 	width: 90%;
-	background-color: grey;
+	background-color: violet;
 
 }
 .container
 {
-	background-color: grey;
+	background-color: violet;
 }
 .text-center{
 	font-size: 30px;
@@ -35,7 +35,7 @@ h2{
 	text-align: center;
 }
 #myNavbar ul li a {
-	color: #61122F;
+	color: #62622F;
 }
 .navbar-brand{
 font-size: 30px;	
