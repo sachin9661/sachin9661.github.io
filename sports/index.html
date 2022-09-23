@@ -13,43 +13,56 @@
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo">
-            <img src="image/logos.png" alt="sportsclub.com">
+    <nav class="navbar">
+        <div class="logo" href="">
+            <img src="image/logos.png" alt="">
         </div>
-        <ul>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+           <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- <img src="image/logos.png" alt="sportsclub.com"> -->
+        
+        <div class="menu">
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Events</a></li>
-            <li class="item"><a href="#client-section">Members & Gallery</a></li>
-            <li class="item"><a href="#contact">contact us</a></li>
+            <li class="item"><a href="#client-section">Gallery</a></li>
+            <li class="item"><a href="#contact">contact</a></li>
 
+        </div>
         </ul>
     </nav>
-    <div id="home1">
-        <a href="https://www.facebook.com/officialsportsclubbitsindri" > 
-    <img src="image/flogo.png" alt="">
-        </a>
-    <br>
-    <a href="https://instagram.com/sportsclub_bitsindri?igshid=YmMyMTA2M2Y=">
-        <img src="image/instalogo.png" alt="">
-</a>
+     <!-- <a id="home1" href="https://www.facebook.com/officialsportsclubbitsindri" > 
+        <img src="image/flogo.png" alt="">
+            </a>
+        <br>
+        <a id="home2" href="https://instagram.com/sportsclub_bitsindri?igshid=YmMyMTA2M2Y=">
+            <img src="image/instalogo.png" alt="">
+    </a> -->
+   
     
-</div>
-    <section id="home">
+    <div id="home">
+         
+        
+        <div>
+
         
         
-        <h1 class="h-primary">Welcome to Sports Club <br> B I T Sindri</h1>
+        <h1 class="h-primary">Welcome to <br> Sports Club <br> B I T Sindri</h1>
+        <!-- <h1 class="h-primary">Welcome to Sports Club <br> B I T Sindri</h1>
+        <h1 class="h-primary">Welcome to Sports Club <br> B I T Sindri</h1> -->
         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni doloribus voluptatum.</p> -->
         
         
-         
+    </div>
+    
 
-    </section>
+    </div>
+    
     <section id="abt">
-        <h1 id="myh">about</h1>
+        <h1 id="myh">About</h1>
         <div id="myabout">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae velit consequuntur eius et, numquam, deserunt aperiam alias consectetur nulla inventore hic. Eveniet, ut tempore maiores dolorem cupiditate officiis sunt ipsam sapiente unde error est quas dolor? Repellat dignissimos facere quae autem iste voluptatum! Quidem voluptates accusamus vel vero nobis?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, accusantium quaerat? Error provident, cum nobis fuga, sunt illo sapiente a hic itaque sint corrupti dolorum nostrum, sed ipsum facilis similique! Eum accusantium sint velit dolorem dicta, minus vel earum fugit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, accusantium quaerat? Error provident, cum nobis fuga, sunt illo sapiente a hic itaque sint corrupti dolorum nostrum, sed ipsum facilis similique! Eum accusantium sint velit dolorem dicta, minus vel earum fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore minus nesciunt veniam? Commodi, veritatis. Nisi fuga suscipit placeat. Consequatur, delectus.</p>
 
 
     </div>
@@ -171,9 +184,7 @@
             <div class="client-item">
                 <img src="image/pic1.png" alt="Our Client">
             </div>
-            <div class="client-item">
-                <img src="image/Blankpfp.webp" alt="Our Client">
-            </div>
+            
             <div class="client-item">
                 <img src="image/pic1.png" alt="Our Client">
             </div>
@@ -183,6 +194,9 @@
             </div>
             <div class="client-item">
                 <img src="image/pic1.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="image/Blankpfp.webp" alt="Our Client">
             </div>
             <div class="client-item">
                 <img src="image/Blankpfp.webp" alt="Our Client">
@@ -218,20 +232,39 @@
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name" placeholder="Enter your name">
                 </div>
+                <br>
                 <div class="form-group">
                     <label for="name">Email:</label>
                     <input type="email" name="name" id="email" placeholder="Enter your email">
                 </div>
+                <br>
                 <div class="form-group">
                     <label for="name">Phone Number:</label>
                     <input type="phone " name="name" id="phone" placeholder="Enter your phone ">
                 </div>
+                <br>
                 <div class="form-group">
                     <label for="name">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="13" rows="4"></textarea>
 
                 </div>
                 <button class="btn">submit</button>
+                <div class="social">
+                    <a id="twt" href="https://www.facebook.com/officialsportsclubbitsindri" > 
+                        <img src="image/flogo.png" alt="">
+                            </a>
+                        <br>
+                        <a id="twt" href="https://instagram.com/sportsclub_bitsindri?igshid=YmMyMTA2M2Y=">
+                            <img src="image/instalogo.png" alt="">
+                    </a>
+                    <a id="twt" href="">
+                        <img src="image/twitter.png" alt="">
+                    </a>
+                    
+                    <a id="twt" href="">
+                        <img src="image/telegram.png" alt="">
+                    </a>
+                </div>
             </form>
         </div>
 

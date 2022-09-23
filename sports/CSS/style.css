@@ -2,25 +2,67 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     
 }
 body {
-    background-color: rgba(97, 169, 221, 0.565);
+    background-color:  #20b6f276;;
 
 }
 
 /* CSS Variables */
-:root{
+/* :root{
     --navbar-height:59px
+} */
+
+/* #navbar {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown; 
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    height: 10rem;
+
+
+
+}
+ul{
+    order: 2;
 }
 
+img {
+    order: 1;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: auto;
+
+}
+
+ul li {
+    display: inline-block;
+    margin: auto 1rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
 /* Navigation Bar */
-#navbar{
+/* #navbar{
     display: flex;
-    align-items: center;
-    position: sticky;
+    justify-content: center;
+
+     position: sticky;
     top: 0px;
+    height: 7rem;
+    
+   
     
 }
 
@@ -30,35 +72,46 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 100%;
+    height: 20%;
     width: 100%;
     z-index: -1;
     opacity: 0.3;
 }
 /* Navigation Bar: Logo and Image */
-#logo{
+/* #logo{
    margin: 10px 30px;
-}
+   left: 0px;
+   /* position: absolute;
+   top: 2rem;
+   left: 2rem; 
+   margin: 2rem ;
+   width: 5rem;
+}*/
 
-#logo img{
+/* #logo img{
     height: 100px;
     margin: -31px -40px;
+    left: 0px;
     
 }
 
 /* Navigation Bar: List Styling */
 
 
-#navbar ul{
+/* #navbar ul{
     display: flex;
     font-family: 'Baloo Bhaina 2', cursive;
+    /* width: max-content; */
+    /* margin-left: auto; */
+/* 
 
-}
+
 
 
 #navbar ul li{
     list-style: none;
     font-size: 1.2rem;
+    margin: 1.5rem;
 }
 
 #navbar ul li a{
@@ -67,47 +120,103 @@ body {
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
+    
 }
 #navbar ul li a:hover{
     color: black;
     background-color: white;
+    opacity: 0.3;
     
-}
+}  */ */
 
 /* Home Section */
-#home{
+#home {
+    top: 0%;
+}
+#home #lglg img{
+    height: 5rem;
+
+}
+#home div{
     display: flex;
+    /* top: 8rem; */
     flex-direction: column;
-    padding: 15px 200px;
-    height: 305px;
+    /* padding: 15px 200px; */
+    height: 32rem;
     justify-content: center;
     align-items: center;
+   
+   
+    
 }
-#home::before{
+/* #home::before {
+    position: absolute;
+    top: 0px;
+    background-image: url('../image/Sports-Rec.jpg');
+}
+*/
+/* #home img{
+    
+    width: 100%;
+    height: 100%;
+    
+}  */
+
+
+/* a {
+    top:13rem;
+    right: 0rem;
+    position:sticky;
+} */
+
+
+/* a {
+    top:13rem;
+    right: 0rem;
+    position:sticky;
+} */
+
+
+
+/* #home::before{
     content: "";
     background: url('../image/Sports-Rec.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 78%;
+    height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 1;
-}
+    opacity: 0.8;
+} */
 
-#home h1{
-    font-size: 55px;
-    color: white;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
 
-}
+
 #home p{
     color: white;
     text-align: center;
     font-size: 1.1rem;
     font-family: 'Bree Serif', serif;
 
+}
+#myh {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #125772;
+}
+#myabout{
+    background-color:  rgb(95, 177, 239)
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    
+}
+#myabout p {
+    padding: 20px;
+    color: white;
 }
 
 /* services section */
@@ -121,33 +230,54 @@ body {
     
     /* border: 2px solid red; */
     padding: 15px;
-    margin: -42px 4px;
+    margin: -10px 4px;
     border-radius: 23px;
-    background-color: #afa0df;
+    background-color: #20b6f2;
     margin-bottom: 20px;
     height: fit-content;
+    box-shadow: 10px 10px rgb(5, 122, 176);
     
 
 }
+
 #services .box div{
     display: flex;
     justify-content: center;
+   
 }
+ /* .h-secondary center{
+    color: brown;
+    background-color: cornflowerblue;
+}  */
 
 #services .box p{
     font-family: 'Bree Serif', serif;
     margin-top: 4px;
+    color: rgb(79, 1, 148);
+}
+.h-primary-center {
+    color:  #125772;
+    font-size: 4rem;
+    text-align: center;
+    
+    text-shadow: 3px 3px #20b6f2;
+
+}
+.h-secondary-center {
+    color: white;
+    text-align: center;
 }
 
 
 /* Client-section */
 #client-section{
-height: 428px;
+    height: fit-content;
 }
 #client-section::before{
     content:"" ;
     position: absolute;
-    background: url('../image/first5.jpg') no-repeat center center/cover;
+    /* background: url('../image/first5.jpg') no-repeat center center/cover; */
+    background-color: #125772;
     width: 100%;
     height: 66%;
     z-index: -1;
@@ -159,11 +289,17 @@ height: 428px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #76d2f683;
+    border-radius: 20px;
+   
 }
+
 #clients img{
     height: 100px;
     margin: 18px;
+    
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -197,6 +333,9 @@ height: 428px;
 /* contact section */
 #contact{
     position: relative;
+    color: white;
+    
+
 }
 #contact::before{
     content: "";
@@ -204,8 +343,10 @@ height: 428px;
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.4;
-    background: url('../image/bg3.jpg');
+    opacity: 1;
+    background-color: rgb(39, 18, 88);
+    /* background: url('../image/.jpg'); */
+    
 }
 #contact-box{
     display: flex;
@@ -217,7 +358,7 @@ height: 428px;
 #contact-box textarea{
     width: 100%;
     padding: 0rem;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 0.7rem;
 }
 #contact-box form{
@@ -239,7 +380,7 @@ footer{
 /* Utility Classes */
 .h-primary{
     font-family: 'Bree Serif', serif;
-    font-size: 2.1rem;
+    font-size: 10rem;
     padding:28px;
 }
 .h-secondary{
@@ -260,4 +401,10 @@ footer{
 
 .center{
     text-align: center;
+}
+.btn{
+    font-size: 16px;
+    padding: 4px 8px;
+    color: rgb(210, 21, 21);
+    
 }
