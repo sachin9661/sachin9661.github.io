@@ -654,7 +654,11 @@ nav .icon-burger .line {
 		font-size: 16px;
 	}
 	nav .links a {
-		font-size: 15px;
+		font-size: 12px;
+	}
+	.click, .links1 {
+		padding: 9px;
+		width: 180px;
 	}
 
 
