@@ -642,13 +642,19 @@ nav .icon-burger .line {
 		
 	}
 	.event-1 img, .event-2 img, .event-3 img {
-		height: 80px;
-		width: 80px;
+		height: 70px;
+		width: 70px;
 		margin-bottom: 3px;
 	}
 	.event-4 img{
 		height: 95px;
-		width: 90px;
+		width: 95px;
+	}
+	.abt-1-2 p {
+		font-size: 16px;
+	}
+	nav .links a {
+		font-size: 15px;
 	}
 
 
@@ -899,4 +905,9 @@ nav .icon-burger .line {
     height: 3rem;
     width: 3rem;
 
+}
+h1.h-primary {
+    text-align: center;
+    color: white;
+    font-size: 30px;
 }
