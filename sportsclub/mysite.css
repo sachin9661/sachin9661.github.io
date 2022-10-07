@@ -617,7 +617,7 @@ nav .icon-burger .line {
 	font-size: 15px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 750px){
 
 	.event-1 img, .event-2 img, .event-3 img, .event-4 img {
 		height: 130px;
@@ -638,13 +638,17 @@ nav .icon-burger .line {
 		margin-bottom: 1px;
 	}
 	.event-1 p, .event-2 p, .event-3 p, .event-4 p {
-		font-size: 8px;
+		font-size: 12px;
 		
 	}
-	.event-1 img, .event-2 img, .event-3 img, .event-4 img {
-		height: 70px;
-		width: 70px;
+	.event-1 img, .event-2 img, .event-3 img {
+		height: 80px;
+		width: 80px;
 		margin-bottom: 3px;
+	}
+	.event-4 img{
+		height: 95px;
+		width: 90px;
 	}
 
 
