@@ -304,12 +304,17 @@ nav .icon-burger .line {
 	z-index: -1;
 }
 @media  (max-width: 600px) 
+
 {
-	.ab2-1-2 {
-		height: 50vh;
+	.about, .abt-1, .abt-2{
+		height: 74vh;
+	}
+	.abt-1-2 {
+		height: 45vh;
+		
 	}
 	.abt-1-2 p {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.btn {
 		height: 35px;
