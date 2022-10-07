@@ -638,8 +638,13 @@ nav .icon-burger .line {
 		margin-bottom: 1px;
 	}
 	.event-1 p, .event-2 p, .event-3 p, .event-4 p {
-		display: none;
+		font-size: 8px;
 		
+	}
+	.event-1 img, .event-2 img, .event-3 img, .event-4 img {
+		height: 70px;
+		width: 70px;
+		margin-bottom: 3px;
 	}
 
 
