@@ -632,6 +632,19 @@ nav .icon-burger .line {
 		
 	}
 }
+@media (max-height: 450px) {
+	.event-1 h1, .event-2 h1, .event-3 h1, .event-4 h1 {
+		font-size: 25px;
+		margin-bottom: 1px;
+	}
+	.event-1 p, .event-2 p, .event-3 p, .event-4 p {
+		font-size: 8px;
+		
+	}
+
+
+	
+}
 	
 
 
