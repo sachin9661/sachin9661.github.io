@@ -229,11 +229,11 @@ nav .icon-burger .line {
 	/* position: absolute; */
 	height: 100vh;
 	top: 0px;
-	background: url('/myimage/background22.jpg')  no-repeat center center / cover;
+	background: url('myimage/background22.jpg')  no-repeat center center / cover;
 }
 @media screen and (max-width: 600px) {
 	.container11 {
-		background: url('/myimage/smallbackground.jpg')  no-repeat center center / cover;
+		background: url('myimage/smallbackground.jpg')  no-repeat center center / cover;
 	}
 }
 
@@ -346,7 +346,7 @@ nav .icon-burger .line {
 .event-1-2 {
 	height: 90vh;
 	display: flex;
-	background: url('/myimage/spardha1back.jpg')  no-repeat center center / cover;
+	background: url('myimage/spardha1back.jpg')  no-repeat center center / cover;
 	
 }
 .event-1-2-1 {
@@ -508,7 +508,7 @@ nav .icon-burger .line {
 	height: 50vh;
 	width: 100%;
 	display: flex;
-	background: url('/myimage/spardha1back.jpg')  no-repeat center center / cover;
+	background: url('myimage/spardha1back.jpg')  no-repeat center center / cover;
 	
 }
 .event-4-1-1 {
