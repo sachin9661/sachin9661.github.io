@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body {
+	padding: 0;
+	margin: 0;
+    background-color: black;
+}
+
+.event-box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.event-box-1{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event-box-1-1{
+    height: 10vh;
+    width: 65%;
+    color: white;
+}
+.event-box-1-2{
+    height: 25vh;
+    width: 75%;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.event-box-2{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event-box-2a,.event-box-2b{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-box-2-1, .event-box-2-2, .event-box-2-3, .event-box-2-4{
+    height: 35vh;
+    width: 30%;
+    margin: 20px;
+    background-color: white;
+    background: url('myimage/background22.jpg')  no-repeat center center / cover; 
+    border-radius: 20px;
+}
+
