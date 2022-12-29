@@ -270,16 +270,46 @@ h1{
     color: blue;
 }
 .team-head{
-  height: 10vh;
+  height: 16vh;
   width: 100%;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  background-color: rgb(102,102,153);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 .team-head h1{
   
   color:white;
-  font-size: 25px;
+  font-size: 35px;
+  background-color: cadetblue;
+  width: 400px;
+  height: 16vh;
+  text-align: center;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  animation: changeSize 5s linear infinite;
+  transition: all 3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+@keyframes changeSize {
+  0% {
+      /* width: 400px; */
+      background-color: blue;
+  }
+  50% {
+      /* width: 250px; */
+      background-color: red;
+  }
+  100% {
+      /* width: 400px; */
+      background-color: green;
+  }
+ 
+
 }
 .myteam-1{
 	display: flex;
@@ -287,7 +317,7 @@ h1{
    align-items: center;
    min-height: 100vh;
    width: 100%;
-   background: white;
+   background: rgb(102,102,153);
  
 }
 .head11 {
@@ -296,7 +326,7 @@ h1{
 	align-items: center;
 	justify-content: end;
   flex-direction: column;
-	background-color:  rgb(119,136,153);
+	background-color:  rgb(102,102,153);
   /* position: relative; */
   /* top: 100px; */
 }
@@ -311,31 +341,37 @@ h1{
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
+   
 }
 .container .card
 {
-   width: 277px;
-   height: 340px;
+   width: 285px;
+   height: 351px;
    padding: 50px 25px;
    margin: 20px;
    /* background: linear-gradient(rgba(255, 255, 255, 0.638) 0%, rgba(0, 0, 0, 0.307) 100%); */
-   /* box-shadow: 0.6em 0.6em 1.2em #d2dce9,
-               -0.5em -0.5em 1em #ffffff; */
-    background-color: darkslategrey;
-   border-radius: 20px;
-   border: 10px solid darkslategray; 
+   box-shadow: -15px -15px 15px rgb(102,102,153,0.2),
+               15px 15px 15px rgb(0,0,0,0.1),
+              inset -5px -5px 5px rgb(102,102,153,0.2),
+               inset 5px 5px 5px rgb(0,0,0,0.1);
+    background-color: rgb(102,102,153);
+   border-radius: 10px;
+   transition: all 1s linear;
+
+   /* border: 7px solid white;  */
    
 }
 .container .card:hover{
   
-  border: 10px solid #ffffffd9;
+  /* border: 7px solid darkslategray; */
   /* background: linear-gradient(rgba(0, 0, 0, 0.773) 0%, rgba(255, 255, 255, 0.374)  100%); */
   /* background: linear-gradient(black 0%, black  100%); */
 
   /* box-shadow: 0.6em 0.6em 1.2em #d2dce9,
                -0.5em -0.5em 1em #ffffff; */
-  transition: 1s;
+  
   transform: rotate(5deg);
+  background: linear-gradient(rgb(255,0,0),   rgb(255,64,64),rgb(255,0,0)  );
   
   
 }
@@ -345,6 +381,8 @@ h1{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   width: 100%;
+   height: 260px;
 }
 .container .card .content .imgBx
 {
@@ -356,6 +394,7 @@ h1{
    position: relative;
    margin-bottom: 0px;
    overflow: hidden;
+
 }
 .container .card .content .imgBx img
 {
@@ -365,37 +404,70 @@ h1{
    width: 100%;
    height: 100%;
    object-fit: cover;
+   transition: all 0.4s linear;
 }
+.container .card:hover .content .imgBx img{
+  border-radius: 100%;
+}
+.container .card .content .contentBx{
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+.container .card .content .contentBx h4,.container .card .content .contentBx h5{
+  z-index: 15;
+}
+
+/* .container .card .content ::before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  transition: all 2s linear;
+
+}
+.container .card .content:hover::before{
+  width: 100%;
+  background-color: rgba(255, 166, 0, 0.713);
+} */
 .container .card .content .contentBx h4
 {
-   color: rgb(255, 255, 255);
-   font-size: 2.5rem;
+   color: rgb(220,220,220);
+   color: white;
+   font-size: 2.3rem;
    font-weight: bold;
    text-align: center;
    letter-spacing: 1px;
+   text-decoration: underline;
 }
 .container .card .content .contentBx h5
 {
-   color: white;
-   font-size: 2rem;
+   color:rgb(220,220,220);
+   font-size: 1.7rem;
    font-weight: bold;
    text-align: center;
+   
 }
 .container .card .content .sci
 {
    margin-top:0px;
+   height: 20px;
 }
 .container .card .content .sci a
 {
    text-decoration: none;
-   color: white;
+   color: rgb(220,220,220);
    font-size: 30px;
    margin: 20px;
+   
    transition: color 0.4s;
 }
 .container .card .content .sci a:hover
 {
-   color: #0196e3;
+   color:blue;
+   
 
 }
 /* .container .card:hover > .content .contentBx h4{
