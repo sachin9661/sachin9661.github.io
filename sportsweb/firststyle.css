@@ -340,14 +340,14 @@ nav .icon-burger .line {
 	top: 0px;
 	/* background: url('myimage/spardha1back.jpg')  no-repeat center center / cover; */
   
-    /* background-color:white; */
+    background-color:rgb(0,0,0);
 
     /* background-repeat: no-repeat;
     background-size: cover; */
     /* background-color: rgb(0, 0, 24);
     
     background: linear-gradient(to left,black,rgb(0, 0, 24),rgb(0, 0, 24),black); */
-   background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+   /*background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;*/
    
    
     display: flex;
