@@ -1,0 +1,205 @@
+.main-cont{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 42%;
+    background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+}
+.aboutpg-container11{
+    width: 90%;
+    background: none;
+    
+}
+.cont-social-icon{
+    width: 10%;
+    height: 104vh;
+    background-color: rgba(128, 128, 128, 0.327);
+    position: fixed;
+    right: 0;
+}
+.ev{
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.ev-next{
+    width: 90%;
+    height: 85vh;
+    background-image: url("myimage/chess.jpg");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    animation: changespardha 24s linear infinite;
+}
+
+
+.ev-1{
+    height: 85vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.65),rgb(0,0,0,0.5),rgb(0,0,0,0.65),rgb(0,0,0,0.95));
+    /* animation: changespardha 12s linear infinite; */
+    /* transition: background 8s linear; */
+}
+
+@keyframes changespardha {
+    0% {
+      /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+      background-image: url(myimage/football.jpg);
+    }
+    12.5% {
+        background-image: url(myimage/khokho.jpg);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
+    }
+    25% {
+        background-image: url(myimage/sotpot2.jpg);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
+    }
+   
+    37.5% {
+        background-image: url(myimage/chess.jpg);
+      /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+    }
+    50% {
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+        background-image: url(myimage/football.jpg);
+      }
+    62.5% {
+          background-image: url(myimage/khokho.jpg);
+          /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
+      }
+    75% {
+          background-image: url(myimage/sotpot2.jpg);
+          /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
+      }
+     
+    87.5% {
+          background-image: url(myimage/chess.jpg);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+      }
+    100% {
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+        background-image: url(myimage/football.jpg);
+      } 
+  
+
+} 
+
+.ev-head{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ev-1-1{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.ev-head h1{
+    text-align: end;
+}
+.even-1 h1{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+.ev-down{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.ev-1-2{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.ev-1-1-1{
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.even-img{
+    height: 350px;
+    width: 350px;
+    background: url('myimage/spardha1back.jpg')  no-repeat center center / cover;
+}
+.even-1{
+    height: 15vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: flex-end; */
+
+}
+
+.even-2{
+    height: 55vh;
+    width: 75%;
+     color: white;
+}
+.even-2 p{
+    text-align: left;
+}
+@media screen and (max-width: 830px){
+    .ev-next{
+        height: 100vh;
+        background-size: 100% 65%;
+    }
+    .ev-1{
+        height: 100vh;
+    }
+    .ev-head{
+        height: 10vh;
+    }
+    .even-1{
+        height: 10vh;
+    }
+    .ev-down{
+        height: 90vh;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ev-1-2{
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+        background-color: black;
+
+    }
+    .ev-1-1{
+        width: 100%;
+    }
+    .ev-1-1-1{
+        height: 20vh;
+        width: 100%;
+    }
+    .even-img{
+        height: 260px;
+        width: 260px;
+    }
+    
+}
