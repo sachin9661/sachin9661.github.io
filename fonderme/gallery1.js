@@ -212,3 +212,16 @@ meee5.addEventListener('mouseleave', function(){
 
 }) 
  
+
+const mynav=document.querySelector(".mynav");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    if(lastScrollY < window.scrollY){
+        mynav.classList.add("nav--hidden");
+    }
+    else {
+        mynav.classList.remove("nav--hidden");
+    }
+    lastScrollY = window.scrollY;
+});
