@@ -97,7 +97,7 @@
     background-size: 100% 100%;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    animation: changespardha 24s linear infinite;
+    animation: changespardha 30s linear infinite;
 }
 
 
@@ -114,7 +114,7 @@
     /* animation: changespardha 12s linear infinite; */
     /* transition: background 8s linear; */
     border-radius: 10px;
-    background: linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.6),rgb(0,0,0,0.4),rgb(0,0,0,0.3),rgb(0,0,0,0.4),rgb(0,0,0,0.6),rgb(0,0,0,0.9),rgb(0,0,0,0.98));
+    background: linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.4),rgb(0,0,0,0.2),rgb(0,0,0,0.1),rgb(0,0,0,0.2),rgb(0,0,0,0.4),rgb(0,0,0,0.9),rgb(0,0,0,0.98));
 
     
 }
@@ -138,14 +138,14 @@
 @keyframes changespardha {
     0% {
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
-      background-image: url(myimage/IMG_20220501_161345.JPG);
+      background-image: url(myimage/sotput.jpg);
     }
     12.5% {
-        background-image: url(myimage/IMG_20220501_161600.JPG);
+        background-image: url(myimage/run.jpg);
         /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
     }
     25% {
-        background-image: url(myimage/IMG_20220501_161640.JPG);
+        background-image: url(myimage/longjump.jpg);
         /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
     }
    
@@ -246,7 +246,7 @@
 .even-2{
     height: 65vh;
     width: 100%;
-     color: rgb(155, 153, 153);
+     color: white;
      display: flex;
      align-items: center;
      justify-content: center;
