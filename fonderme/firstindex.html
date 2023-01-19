@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Creepster&family=Open+Sans:wght@300&family=Oswald:wght@500&family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karma&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
   
     <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Sansita&display=swap" rel="stylesheet">
@@ -30,6 +30,17 @@
 
 </head>
 <body>
+    <div class="loader_bg">
+        <!-- <div class="loader"></div> -->
+        
+        <!-- <img class="preimg" src="myimage/LogoSportsclub.png" alt=""> -->
+        <p class="loadpara">welcome to</p>
+        <p ><span class="loader" style=" font-family: 'Sansita', sans-serif;"></span>
+                     
+        </p>
+    
+    </div>
+    
     <nav class="mynav">
         <input id="nav-toggle" type="checkbox">
         <div class="logo"><img src="myimage/LogoSportsclub.png" alt=""></div>
@@ -147,7 +158,7 @@
         </div>
         <div class="wedo-p" data-aos="zoom-in">
             <p>Lorem ipsum dolor sit amet consectetur Cum corrupti ducimus excepturi maiores eaque nam,ptas sint assumenda magnam cupiditate, aliquam nostrum nisi consequatur rem et dolores? Odit explicabo quidem et incidunt mollitia magni repellendus, cum doloremque velit tenetur, excepturi esse ea nostrum, vero hic atque eveniet ipsa aspernatur delectus! Aliquid, in.</p>
-           <br> <br>
+           
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.  corporis, officiis corrupti quam culpa facere tenetur. Minus mollitia suscipit illo voluptatem, ullam accusantium eveniet velit distinctio aut, accusamus error unde labore?
             </p>
@@ -185,6 +196,7 @@
             <h1><span>&nbsp; Our events &nbsp;</span></h1>
         
     </div>
+    <div class="blank-space"></div>
   
     <div class="box">
         <container class="allevents">
@@ -505,6 +517,7 @@
     <div class="blank-space"></div>
     
  
+
     <script>
 
         let click = document.querySelector('.click');
@@ -520,11 +533,20 @@
         
     
     </script>
+     
     <script src="gallery1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typed = new Typed(".fpara", {
-            strings: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium cumque suscipit, qui,"," enim unde quibusdam iste explicabo sapiente delectus in tenetur blanditiis numquam"],
+            strings: ["Lorem ipsum dolor sit amet Sunt laudantium cumque suscipit qui"," enim unde quibusdam iste explicabo sapienteis numquam"],
+            typeSpeed: 50,
+            backSpeed: 1,
+            loop:true
+        })
+    </script>
+    <script>
+        var typed = new Typed(".loader", {
+            strings: ["sports CLUB","BIT Sindri"],
             typeSpeed: 50,
             backSpeed: 1,
             loop:true
@@ -557,9 +579,15 @@
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init({
-            offset: 280,
-            duration: 800
+            offset: 260,
+            duration: 700
         });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+          setTimeout(function(){
+              $('.loader_bg').fadeToggle();
+          }, 3500);
       </script>
     
     
