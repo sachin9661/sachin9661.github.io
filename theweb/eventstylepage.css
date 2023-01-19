@@ -1,0 +1,341 @@
+.event-main-heading{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.event-main-heading h1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+
+.main-cont{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 42%;
+    background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+}
+.aboutpg-container11{
+    width: 90%;
+    background: none;
+    
+}
+.cont-social-icon{
+    width: 10%;
+    height: 104vh;
+    /* background-color: rgba(128, 128, 128, 0.327); */
+    
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.cont-social-icon .coi-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+ .cont-social-icon .coi-list li a{
+    position: sticky;
+ }
+ .evvv-main{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+ }
+ .evvv-last{
+     height: 100vh;
+     width: 12%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+    
+ }
+ .evvv-last h1{
+    font-size: 45px;
+    width: 15%;
+    
+    word-wrap: break-word;
+    color: white;
+    
+    
+    
+    
+ 
+ }
+.ev{
+    width: 88%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ev-next{
+    width: 90%;
+    height: 85vh;
+    background-image: url("myimage/chess.jpg");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    animation: changespardha 30s linear infinite;
+}
+
+
+.ev-1{
+    height: 85vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    /* background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.45),rgb(0,0,0,0.3),rgb(0,0,0,0.45),rgb(0,0,0,0.6)); */
+    /* animation: changespardha 12s linear infinite; */
+    /* transition: background 8s linear; */
+    border-radius: 10px;
+    background: linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.4),rgb(0,0,0,0.2),rgb(0,0,0,0.1),rgb(0,0,0,0.2),rgb(0,0,0,0.4),rgb(0,0,0,0.9),rgb(0,0,0,0.98));
+
+    
+}
+/* #ev-spardha .ev-1{
+    background: linear-gradient(rgb(0,0,0,0.85),rgb(0,0,0,0.6),rgb(0,0,0,0.4),rgb(0,0,0,0.3),rgb(0,0,0,0.4),rgb(0,0,0,0.6),rgb(0,0,0,0.9),rgb(0,0,0,0.98));
+    
+}
+#ev-khokho .ev-1{
+    background: linear-gradient(to right,rgba(248, 2, 2, 0.3),rgba(252, 54, 54, 0.3));
+}
+#ev-pratidwand .ev-1{
+    background: linear-gradient(to right,rgba(6, 251, 2, 0.3),rgba(13, 251, 84, 0.3));
+}
+#ev-football .ev-1{
+    background: linear-gradient(to right,rgba(251, 9, 182, 0.3),rgba(255, 3, 196, 0.3));
+}
+#ev-vollyball .ev-1{
+    background: linear-gradient(to right,rgba(25, 25, 250, 0.7),rgba(56, 56, 248, 0.7));
+} */
+
+@keyframes changespardha {
+    0% {
+      /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+      background-image: url(myimage/sotput.jpg);
+    }
+    12.5% {
+        background-image: url(myimage/run.jpg);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
+    }
+    25% {
+        background-image: url(myimage/longjump.jpg);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
+    }
+   
+    37.5% {
+        background-image: url(myimage/IMG_20220501_161732.JPG);
+      /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+    }
+    50% {
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+        background-image: url(myimage/IMG_20220501_161814.JPG);
+      }
+    62.5% {
+          background-image: url(myimage/IMG_20220501_161848.JPG);
+          /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
+      }
+    75% {
+          background-image: url(myimage/IMG_20220501_161600.JPG);
+          /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
+      }
+     
+    87.5% {
+          background-image: url(myimage/IMG_20220501_161732.JPG);
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+      }
+    100% {
+        /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
+        background-image: url(myimage/football.jpg);
+      } 
+  
+
+} 
+
+.ev-head{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ev-1-1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.ev-head h1{
+    text-align: end;
+}
+.even-1 h1{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+.ev-down{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.ev-1-2{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.ev-1-1-1{
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.even-img{
+    height: 350px;
+    width: 350px;
+    background: url('myimage/spardha1back.jpg')  no-repeat center center / cover;
+}
+.even-1{
+    height: 15vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: flex-end; */
+
+}
+
+.even-2{
+    height: 65vh;
+    width: 100%;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.even-2 p{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media screen and (max-width: 830px){
+    .evvv-main{
+        height: 70vh;
+    }
+    .evvv-last{
+        width: 0%;
+    }
+    .evvv-last h1{
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    .ev{
+        width: 100%;
+        width: 60vh;
+    }
+    .ev-next{
+        height: 60vh;
+        background-size: 100% 65%;
+        animation: none;
+        background-image: none;
+        box-shadow: none;
+    }
+    .ev-1{
+        height: 60vh;
+    }
+    .ev-head{
+        height: 10vh;
+    }
+    .even-1{
+        height: 10vh;
+    }
+    .ev-down{
+        height: 55vh;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ev-1-2{
+        height: 50vh;
+        width: 100%;
+        align-items: center;
+        background-color: black;
+
+    }
+    .ev-1-1{
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-image: url("myimage/chess.jpg");
+        background-size: 100% 100%;
+        animation: changespardha 24s linear infinite;
+        
+    }
+    .ev-1-1-1{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.805),rgba(0, 0, 0, 0.683),rgba(0, 0, 0, 0.31),rgba(0, 0, 0, 0.683),rgba(0, 0, 0, 0.805)); */
+       
+        background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+       }
+    .even-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .even-2 p{
+        font-size: 12px;
+    }
+    .even-img{
+        height: 260px;
+        width: 260px;
+    }
+    
+}
