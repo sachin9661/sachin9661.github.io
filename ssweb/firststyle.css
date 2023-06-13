@@ -820,7 +820,7 @@ nav .icon-burger .line {
     width: 100%;
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
-    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/new-front33.jpg') no-repeat center center / cover;
     display: flex;
     align-items: center;
     justify-content: flex-end;
