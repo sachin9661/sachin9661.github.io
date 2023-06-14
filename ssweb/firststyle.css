@@ -820,7 +820,7 @@ nav .icon-burger .line {
     width: 100%;
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
-    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/new-front33.jpg') no-repeat center center / cover;
+    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.4),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/front-555.jpg') no-repeat center center / cover;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -1150,8 +1150,8 @@ nav .icon-burger .line {
   justify-content: center;
 }
 .swi-1 img{
-  height: 240px;
-  width: 240px;
+  height: 230px;
+  width: 230px;
   border-radius: 50%;
   /* border-bottom-right-radius: 35%;
   border-bottom-left-radius: 35%;
@@ -1218,8 +1218,8 @@ nav .icon-burger .line {
 } */
 @media  (max-height: 500px){
   .swi-1 img{
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
   }
 } 
 @media  (max-width: 500px) {
@@ -2882,7 +2882,7 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(184,134,11);
+  background-color:rgb(255,215,0);
   z-index: 2;
   transition: all 0.5s linear;
 
@@ -2896,7 +2896,7 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(184,134,11);
+  background-color:rgb(255,215,0);
   z-index: 2;
   transition: all 0.5s linear;
 } 
@@ -2922,7 +2922,7 @@ gallerybody{
 }
 
 .event-start-2 h1:hover::after,.event-start-2 h1:hover::before,.wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after{
-  background-color: rgb(184,134,11);
+  background-color: rgb(255,215,0);
   width: 10%;
 }
 .postb-1 h1{
@@ -2956,7 +2956,7 @@ gallerybody{
     height: 2.8px;
   }
   .wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after,.event-start-2 h1:hover::after,.event-start-2 h1:hover::before{
-    background-color: rgb(184,134,11);
+    background-color: rgb(255,215,0);
     width: 18%;
   }
 

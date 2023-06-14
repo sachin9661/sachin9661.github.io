@@ -367,7 +367,7 @@ nav .icon-burger .line {
     top: 100%;
     height: 3px;
     width: 10%;
-    background-color: aqua;
+    background-color:rgb(255,215,0);
     z-index: 2;
     transition: all 0.5s linear;
 }
@@ -377,14 +377,14 @@ nav .icon-burger .line {
   display: block;
   right: 35%;
   top: 100%;
-  height: 3.5px;
+  height: 3px;
   width: 10%;
-  background-color:aqua;
+  background-color:rgb(255,215,0);
   z-index: 2;
   transition: all 0.5s linear;
 }
 .abtpage-contA-1 h1:hover::after,.abtpage-contA-1 h1:hover::before{
-    background-color:aqua;
+    background-color:rgb(255,215,0);
    width: 15%;
 }
 .abtpage-contA-2{
@@ -423,7 +423,7 @@ nav .icon-burger .line {
     }
     
     .abtpage-contA-1 h1:hover::after,.abtpage-contA-1 h1:hover::before{
-        background-color:aqua;
+        background-color:rgb(255,215,0);
        width: 25%;
     }
 
