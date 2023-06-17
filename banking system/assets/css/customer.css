@@ -1,11 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #d5b9b2;
+    background-color: #8765ff;
 }
 
 /* navbar css starts here  */
 .bg-light{
-    background-color: #f2e9e4!important;
+    background-color: white!important;
 }
 
 .navbar-brand{
@@ -30,7 +30,7 @@ body{
 
 .btn-info{
     padding: 1rem 1.2rem;
-    background-color: rgb(78, 153, 223)!important;
+    background-color: rgb(0, 4, 7)!important;
     color: #fff!important;
     margin-left: 5px;
     padding: 0.75rem;
@@ -38,5 +38,5 @@ body{
 }
 
 .btn-info:hover{
-    background-color: rgb(67, 83, 230)!important;
+    background-color: rgb(143, 246, 136)!important;
 }
