@@ -1946,6 +1946,7 @@ out team work section */
   background-color: rgb(185, 183, 183);
   background-color: white;
   background: linear-gradient(to right,black,rgb(146, 146, 146));
+  
   /* background: linear-gradient(to left,rgb(0,255,255), rgb(63,255,0)); */
   
   height: 80vh;
@@ -1979,6 +1980,7 @@ out team work section */
   background-color:  rgb(151, 151, 146);
   background-color: white;
   background: linear-gradient(to right,black,rgb(146, 146, 146));
+  
   /* background: linear-gradient(to left,rgb(0,255,255), rgb(63,255,0)); */
   /* box-shadow: -15px 0px 25px rgb(201, 200, 200); */
  
@@ -1995,6 +1997,7 @@ out team work section */
   /* background: linear-gradient( rgb(0,255,255), rgb(164,244,249)); */
   background-color: rgb(185, 183, 183);
   background: linear-gradient(to right,black,rgb(146, 146, 146));
+  
   /* background: linear-gradient(to left,rgb(0,255,255), rgb(63,255,0)); */
  
   height: 80vh;
@@ -2010,6 +2013,7 @@ out team work section */
   /* background: linear-gradient(rgb(255,255,0),    rgb(252,247,94));  */
   background-color:  rgb(151, 151, 146);
   background: linear-gradient(to right,black,rgb(146, 146, 146));
+  
   /* background: linear-gradient(to left,rgb(0,255,255), rgb(63,255,0)); */
   /* border-bottom: 3px solid aqua;
   border-top: 3px solid aqua;
@@ -2150,7 +2154,7 @@ out team work section */
   
 }
 .line11:hover,.line12:hover,.line13:hover,.line14:hover{
-  background: white;
+  background:white;
 }
 /* .line11:hover .ll1a{
   width: 75%;
