@@ -214,17 +214,17 @@ nav .links a::before{
 nav .links a:hover,nav .links a:active{
   /* background-color:rgb(0, 0, 24) ; */
   /* background: linear-gradient(to right,rgb(0, 0, 24),black); */
-  color:  rgb(184,134,11);
+  /* color:  rgb(0,183,235); */
   /* color: rgba(164, 164, 164, 0.159); */
 }
-/* 
+
 nav .links a:hover::before{
 	
   width: 100%;
-  background-color: rgba(0, 206, 209, 0.72);
+  background-color: #fff
   
 
-} */
+}
 #nav-toggle {
 	position: absolute;
 	top: -100px;
@@ -261,9 +261,8 @@ nav .icon-burger .line {
     /* background:linear-gradient(#00008b 10%, #4b0082 90%); */
     
     /* background-color: rgb(0,191,255); */
-    border: 1.8px solid rgb(233,214,107);
-   background-color: rgb(233,214,107);
-   background: linear-gradient(to right,rgb(233,214,107) 0%,rgb(231,254,255) 100%);
+    border: 1.8px solid rgb(0,255,255);
+   background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
    
    
     border-radius: 10px;
@@ -369,7 +368,7 @@ nav .icon-burger .line {
     color: #fff;
     margin-top: 4px;
     border: 2.5px solid white;
-    background: linear-gradient(to right,rgb(0,206,209) 0%,rgb(231,254,255) 100%);
+    background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
     background: transparent;
 
 }
@@ -378,7 +377,7 @@ nav .icon-burger .line {
 
     /* background:linear-gradient(#0505bd 10%, #6f05ba 90%); */
     /* background: linear-gradient(to left,rgb(255,69,0,1),rgb(255,140,0,1)); */
-    background: linear-gradient(to left,rgb(233,214,107) 0%,rgb(0, 0, 0) 100%);
+    background: linear-gradient(to left,rgb(0,255,255) 0%,rgb(0, 0, 0) 100%);
     transition: 0.5s;
     color: white;
 
@@ -468,7 +467,7 @@ nav .icon-burger .line {
 		opacity: 0;
 	}
   .links1{
-    background: linear-gradient(to right,rgb(233,214,107) 0%,rgb(231,254,255) 100%);
+    background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
     color: #000000;
   }
 	
@@ -602,8 +601,8 @@ nav .icon-burger .line {
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap'); */
 .fr-2 h1{
   text-align: center;
-  font-size: 100px;
-  line-height: 70px;
+  font-size: 75px;
+  line-height: 55px;
   color:transparent;
   -webkit-text-stroke: 1px #fff;
   background: url(myimage/back.png);
@@ -673,11 +672,11 @@ nav .icon-burger .line {
     line-height: 2em;
     text-align: center;
     color: rgb(252, 237, 176);
-    color: white;
+    /* color: white; */
     font-family: 'Lalezar', cursive;
 }
 .fr-3 p:hover{
-  color: rgb(184,134,11);
+  color: rgb(240, 221, 173);
 }
 
 
@@ -688,7 +687,7 @@ nav .icon-burger .line {
 .container11 .container13 a
 {
    text-decoration: none;
-   color:  rgb(233,214,107);
+   color:  rgb(0,255,255);
    font-size: 30px;
    margin: 10px;
    transition: color 0.4s;
@@ -820,7 +819,7 @@ nav .icon-burger .line {
     width: 100%;
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
-    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.4),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/front-555.jpg') no-repeat center center / cover;
+    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -1349,7 +1348,7 @@ nav .icon-burger .line {
   background-color: rgba(255, 255, 255, 0);
 	border-radius: 3px;
 	font-size: 19px;
-	color: rgb(233,214,107);
+	color: rgba(0, 255, 255, 0.871);
 	height: 42px;
     width: 117px;
     border: 0px;
@@ -1444,7 +1443,7 @@ nav .icon-burger .line {
 }
 .pname h2{
   font-family: 'Alata', sans-serif;
-  color:  rgb(233,214,107);
+  color:  rgb(10,186,181);
 }
 .ppos {
   text-align: center;
@@ -2882,11 +2881,19 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(255,215,0);
+  background-color:rgb(0,183,235);
   z-index: 2;
   transition: all 0.5s linear;
 
 } 
+@media(min-width: 600px){
+.abt-1-1 h1,.event-start-head h1, .postb-1 h1,.wedo-h h1,.event-start-2 h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+}
+
+
 
 .abt-1-1 h1::after,.event-start-head h1::after,.postb-1 h1::after,.wedo-h h1::after,.event-start-2 h1::after{
   content: " ";
@@ -2896,7 +2903,7 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(255,215,0);
+  background-color:rgb(0,183,235);
   z-index: 2;
   transition: all 0.5s linear;
 } 
@@ -2908,7 +2915,7 @@ gallerybody{
   top: 60%;
 }
 #gli .postb-1 h1::after,#gli .postb-1 h1::before{
-  top: 62%;
+  top: 75%;
 }
 .abt-1-1 h1 span,.event-start-head h1 span{
   background-color: #000000;
@@ -2922,7 +2929,7 @@ gallerybody{
 }
 
 .event-start-2 h1:hover::after,.event-start-2 h1:hover::before,.wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after{
-  background-color: rgb(255,215,0);
+  background-color: rgb(0,183,235);
   width: 10%;
 }
 .postb-1 h1{
@@ -2956,7 +2963,7 @@ gallerybody{
     height: 2.8px;
   }
   .wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after,.event-start-2 h1:hover::after,.event-start-2 h1:hover::before{
-    background-color: rgb(255,215,0);
+    background-color: rgb(0,183,235);
     width: 18%;
   }
 
