@@ -261,7 +261,7 @@ nav .icon-burger .line {
     /* background:linear-gradient(#00008b 10%, #4b0082 90%); */
     
     /* background-color: rgb(0,191,255); */
-    border: 1.8px solid rgb(0,255,255);
+    border: 0px solid rgb(0,255,255);
    background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
    
    
@@ -304,7 +304,7 @@ nav .icon-burger .line {
     /* background:linear-gradient(#00008bc8 10%, #4c0082c2 90%); */
 
     background: whitesmoke;
-    border: 1.8px solid white;
+    border: 0px solid white;
     color: black;
     transition: 1s;
    
@@ -1733,6 +1733,9 @@ out team work section */
   background-color: rgba(255, 255, 255, 0.272);
   border: 0px solid white;
 }
+.swork-3 button:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .swork-1 h1{
   font-size: 30px;
   color: white;
@@ -1742,6 +1745,18 @@ out team work section */
   color: white;
   font-size: 13px;
   font-family: 'Raleway', sans-serif;
+}
+
+
+@media screen and (max-width: 450px){
+  .mainswork{
+    height: 65vh;
+    max-height: 600px;
+  }
+  .swork{
+    height: 65vh;
+    max-height: 600px;
+  }
 }
 /* we do section */
 
@@ -2974,7 +2989,7 @@ gallerybody{
 
 }
 .abt-1-1 h1 span,.event-start-head h1 span,.postb-1 h1,.wedo-h h1 span,.event-start-2 h1{
-  font-family: 'Raleway', sans-serif;
+  font-family:'Rowdies', cursive;;
 
 }
 .cl-gmail{
