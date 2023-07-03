@@ -1703,7 +1703,7 @@ out team work section */
   flex-direction: column;
   justify-content: center;
   
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65));
   /* animation: changevollyball 30s linear infinite;
   background-image: url("myimage/run.jpg");
   background-size: 100% 100%; */
@@ -1799,7 +1799,7 @@ out team work section */
 /* event section */
 
 .event-start{
-  height: 55vh;
+  /* height: 55vh; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -1812,11 +1812,12 @@ out team work section */
 }
 .event-start-1{
   width: 100%;
-  height: 45vh;
+  /* height: 45vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-direction: column;
   top: 50px;
  
   
@@ -1829,8 +1830,8 @@ out team work section */
   bottom: 80px;
 } */
 .event-start-2{
-  width: 45%;
-  height: 40vh;
+  width: 70%;
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -2885,7 +2886,7 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(0,183,235);
+  background-color: rgb(0,255,255);
   z-index: 2;
   transition: all 0.5s linear;
 
@@ -2907,7 +2908,7 @@ gallerybody{
   top: 100%;
   height: 2.5px;
   width: 2.5%;
-  background-color:rgb(0,183,235);
+  background-color: rgb(0,255,255);
   z-index: 2;
   transition: all 0.5s linear;
 } 
@@ -2933,7 +2934,7 @@ gallerybody{
 }
 
 .event-start-2 h1:hover::after,.event-start-2 h1:hover::before,.wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after{
-  background-color: rgb(0,183,235);
+  background-color:  rgb(0,255,255);
   width: 10%;
 }
 .postb-1 h1{
@@ -2967,7 +2968,7 @@ gallerybody{
     height: 2.8px;
   }
   .wedo-h h1:hover::after,.wedo-h h1:hover::before,.abt-1-1 h1:hover::before,.abt-1-1 h1:hover::after,.postb-1 h1:hover::before,.postb-1 h1:hover::after,.event-start-head h1:hover::before,.event-start-head h1:hover::after,.event-start-2 h1:hover::after,.event-start-2 h1:hover::before{
-    background-color: rgb(0,183,235);
+    background-color:  rgb(0,255,255);
     width: 18%;
   }
 
