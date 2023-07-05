@@ -831,6 +831,7 @@ nav .icon-burger .line {
     background-image: url('./myimage/chess.jpg');
     background-size: 100% 100%;
     animation:moback 18s linear infinite;
+    border-top: 5px solid black;
 
   }
   .fr-3{
@@ -844,7 +845,7 @@ nav .icon-burger .line {
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     /* animation: changeImage 12s linear infinite;  */
     transition: all 3s linear;
@@ -872,10 +873,10 @@ nav .icon-burger .line {
      
   
 
-} */
+} 
     
     
-  .fr-3 p{
+.fr-3 p{
        height: 30vh;
       font-size: 25px;
       
