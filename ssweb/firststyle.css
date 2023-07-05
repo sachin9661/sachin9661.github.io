@@ -663,6 +663,14 @@ nav .icon-burger .line {
  
 
 }
+.fr-3A{
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  width: 100%;
+}
 
   
   
@@ -814,37 +822,52 @@ nav .icon-burger .line {
   
   
   }
+  .fr-3A{
+    height:45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./myimage/chess.jpg');
+    background-size: 100% 100%;
+    animation:moback 18s linear infinite;
+
+  }
   .fr-3{
     height: 45vh;
     width: 100%;
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
-    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,1)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+    
+    background: linear-gradient(rgb(0,0,0,85),rgb(0,0,0,0.75),rgb(0,0,0,0.4),rgb(0,0,0,1));
+    
+    
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     /* animation: changeImage 12s linear infinite;  */
     transition: all 3s linear;
     border-bottom: 3px solid black;
     border-top: 5px solid black;
+   
   } 
  
 
-/* @keyframes changeImage {
+ @keyframes moback {
     0% {
-      background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.8),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+      background-image: url('./myimage/pexels-pixabay-47730.jpg');
       
     }
     25% {
-      background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/high.webp') no-repeat center center / cover;
+      background-image:url('./myimage/grpimg-1.jpeg') ;
     }
     75% {
-      background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/football.jpg') no-repeat center center / cover;
+      background-image: url('./myimage/WhatsApp\ Image\ 2022-12-05\ at\ 23.11.19.jpg') ;
     }
    
     100% {
-      background: linear-gradient(to left,rgb(0,0,0,0.9),rgb(0,0,0,0.6),rgb(0,0,0,0.9)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover;
+      background-image:url('./myimage/khokho-2.jpg') ;
     }
      
   
