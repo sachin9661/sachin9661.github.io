@@ -470,6 +470,9 @@ nav .icon-burger .line {
     background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
     color: #000000;
   }
+  .click{
+    height: 55px;
+  }
 	
 	
 }
