@@ -682,9 +682,9 @@ nav .icon-burger .line {
     text-align: left;
     line-height: 2em;
     text-align: center;
-    color: rgb(252, 237, 176);
+    color: rgb(139, 138, 138);
     /* color: white; */
-    font-family: 'Lalezar', cursive;
+    /* font-family: 'Lalezar', cursive; */
 }
 .fr-3 p:hover{
   color: rgb(240, 221, 173);
@@ -833,7 +833,7 @@ nav .icon-burger .line {
     justify-content: center;
     background-image: url('./myimage/chess.jpg');
     background-size: 100% 100%;
-    animation:moback 18s linear infinite;
+    animation:moback 19s linear infinite;
     border-top: 5px solid black;
 
   }
@@ -843,7 +843,7 @@ nav .icon-burger .line {
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
     
-    background: linear-gradient(rgb(0,0,0,85),rgb(0,0,0,0.75),rgb(0,0,0,0.4),rgb(0,0,0,1));
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,1));
     
     
     display: flex;
@@ -860,18 +860,18 @@ nav .icon-burger .line {
 
  @keyframes moback {
     0% {
-      background-image: url('./myimage/pexels-pixabay-47730.jpg');
+      background-image: url('./myimage/IMG_8860.JPG');
       
     }
     25% {
-      background-image:url('./myimage/grpimg-1.jpeg') ;
+      background-image:url('./myimage/IMG_9075.JPG') ;
     }
     75% {
       background-image: url('./myimage/WhatsApp\ Image\ 2022-12-05\ at\ 23.11.19.jpg') ;
     }
    
     100% {
-      background-image:url('./myimage/khokho-2.jpg') ;
+      background-image:url('./myimage/IMG_8936.JPG') ;
     }
      
   
@@ -885,7 +885,7 @@ nav .icon-burger .line {
       
       line-height: 2em;
       text-align: center;
-      font-family: 'Lalezar', cursive;
+      /* font-family: 'Lalezar', cursive; */
       
       
       
@@ -1270,9 +1270,10 @@ nav .icon-burger .line {
     width: 100%;
   }
   .swi-1 img{
-    height: 220px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
   }
+
   .swi-2{
     height: 4vh;
     width: 100%;
