@@ -660,7 +660,7 @@ nav .icon-burger .line {
   width: 100%;
   /* color: rgb(255,219,88); */
   
-  font-family: 'Lalezar', cursive;
+  /* font-family: 'Lalezar', cursive; */
   z-index: 10;
   
  
@@ -682,7 +682,7 @@ nav .icon-burger .line {
     text-align: left;
     line-height: 2em;
     text-align: center;
-    color: rgb(139, 138, 138);
+    color: rgb(179, 177, 177);
     /* color: white; */
     /* font-family: 'Lalezar', cursive; */
 }
@@ -831,9 +831,9 @@ nav .icon-burger .line {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./myimage/chess.jpg');
+    background-image: url('./myimage/IMG_8936.JPG');
     background-size: 100% 100%;
-    animation:moback 19s linear infinite;
+    /* animation:moback 19s linear infinite; */
     border-top: 5px solid black;
 
   }
@@ -843,7 +843,7 @@ nav .icon-burger .line {
     /* color: white; */
     /* background-color: rgba(128, 128, 128, 0.153); */
     
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,1));
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,85));
     
     
     display: flex;
@@ -886,6 +886,7 @@ nav .icon-burger .line {
       line-height: 2em;
       text-align: center;
       /* font-family: 'Lalezar', cursive; */
+      
       
       
       
@@ -1664,41 +1665,41 @@ nav .icon-burger .line {
 @keyframes changevollyball {
   0% {
     /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
-    background-image: url(myimage/grpimg-3.jpg);
+    background-image: url(myimage/WhatsApp\ Image\ 2022-12-05\ at\ 23.11.19.jpg);
   }
   12.5% {
-      background-image: url(myimage/grpimg-2.jpg);
+      background-image: url(myimage/IMG_8860.JPG);
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
   }
   25% {
-      background-image: url(myimage/Hershey-group-shot.jpg);
+      background-image: url(myimage/IMG_8936.JPG);
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
   }
  
   37.5% {
-      background-image: url(myimage/grpimg-3.jpg);
+      background-image: url(myimage/IMG_9075.JPG);
     /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
   }
   50% {
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
-      background-image: url(myimage/grpimg-1.jpeg);
+      background-image: url(myimage/WhatsApp\ Image\ 2022-12-05\ at\ 23.11.19.jpg);
     }
   62.5% {
-        background-image: url(myimage/Hershey-group-shot.jpg);
+        background-image: url(myimage/IMG_8860.JPG);
         /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/high.webp') no-repeat center center / cover; */
     }
   75% {
-        background-image: url(myimage/vollyball-2.jpg);
+        background-image: url(myimage/IMG_8936.JPG);
         /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/football.jpg') no-repeat center center / cover; */
     }
    
   87.5% {
-        background-image: url(myimage/grpimg-3.jpg);
+        background-image: url(myimage/IMG_9075.JPG);
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
     }
   100% {
       /* background: linear-gradient(rgb(0,0,0,0.95),rgb(0,0,0,0.8),rgb(0,0,0,0.6),rgb(0,0,0,0.8),rgb(0,0,0,0.95)),url('./myimage/pexels-pixabay-47730.jpg') no-repeat center center / cover; */
-      background-image: url(myimage/Hershey-group-shot.jpg);
+      background-image: url(myimage/WhatsApp\ Image\ 2022-12-05\ at\ 23.11.19.jpg);
     } 
 
 
@@ -1767,7 +1768,7 @@ out team work section */
 .swork-1 h1{
   font-size: 30px;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family:'Rowdies', cursive;
 }
 .swork-2 p{
   color: white;
@@ -3017,7 +3018,7 @@ gallerybody{
 
 }
 .abt-1-1 h1 span,.event-start-head h1 span,.postb-1 h1,.wedo-h h1 span,.event-start-2 h1{
-  font-family:'Rowdies', cursive;;
+  font-family:'Rowdies', cursive;
 
 }
 .cl-gmail{
