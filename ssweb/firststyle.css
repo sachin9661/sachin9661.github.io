@@ -194,7 +194,7 @@ nav .links a {
 	font-weight: bold;
   text-transform: uppercase;
 	color: #fff;
-  color: yellow;
+  
 	text-decoration: none;
   /* background-color: rgb(255,219,88); */
   border-radius: 10px;
@@ -445,6 +445,7 @@ nav .icon-burger .line {
 		font-size: 20px;
     position: relative;
     margin: 20px;
+    color: yellow;
 	}
 	
 
