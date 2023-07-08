@@ -194,7 +194,7 @@ nav .links a {
 	font-weight: bold;
   text-transform: uppercase;
 	color: #fff;
-  /* color: black; */
+  color: yellow;
 	text-decoration: none;
   /* background-color: rgb(255,219,88); */
   border-radius: 10px;
@@ -221,7 +221,7 @@ nav .links a:hover,nav .links a:active{
 nav .links a:hover::before{
 	
   width: 100%;
-  background-color: #fff
+  background-color:yellow;
   
 
 }
@@ -366,6 +366,7 @@ nav .icon-burger .line {
 
     color: rgb(0, 0, 0);
     color: #fff;
+    
     margin-top: 4px;
     border: 2.5px solid white;
     background: linear-gradient(to right,rgb(0,255,255) 0%,rgb(231,254,255) 100%);
