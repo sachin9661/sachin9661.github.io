@@ -684,7 +684,7 @@ nav .icon-burger .line {
     text-align: left;
     line-height: 2em;
     text-align: center;
-    color: rgb(179, 177, 177);
+    color: rgba(179, 177, 177, 0.561);
     /* color: white; */
     /* font-family: 'Lalezar', cursive; */
 }
@@ -1734,7 +1734,7 @@ out team work section */
   flex-direction: column;
   justify-content: center;
   
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65));
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35));
   /* animation: changevollyball 30s linear infinite;
   background-image: url("myimage/run.jpg");
   background-size: 100% 100%; */
@@ -1768,12 +1768,12 @@ out team work section */
   background-color: rgba(255, 255, 255, 0.5);
 }
 .swork-1 h1{
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   font-family:'Rowdies', cursive;
 }
 .swork-2 p{
-  color: white;
+  color: rgba(254, 253, 253, 0.577);
   font-size: 13px;
   font-family: 'Raleway', sans-serif;
 }
@@ -1787,6 +1787,9 @@ out team work section */
   .swork{
     height: 65vh;
     max-height: 600px;
+  }
+  .swork-1 h1{
+    font-size: 30px;
   }
 }
 /* we do section */
