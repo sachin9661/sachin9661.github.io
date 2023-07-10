@@ -214,13 +214,13 @@ nav .links a::before{
 nav .links a:hover,nav .links a:active{
   /* background-color:rgb(0, 0, 24) ; */
   /* background: linear-gradient(to right,rgb(0, 0, 24),black); */
-  color:  rgba(0, 206, 209, 0.72);
+  color:  yellow;
 }
 
 nav .links a:hover::before{
 	/* border-bottom: 3px solid  #0196e3; */
   width: 100%;
-  background-color: rgba(0, 206, 209, 0.72);
+  background-color: yellow;
 
 }
 #nav-toggle {
