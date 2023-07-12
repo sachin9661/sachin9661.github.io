@@ -217,6 +217,9 @@ nav .links a:hover,nav .links a:active{
   /* color:  rgb(0,183,235); */
   /* color: rgba(164, 164, 164, 0.159); */
 }
+nav .links a:hover{
+  color: yellow;
+}
 
 nav .links a:hover::before{
 	
@@ -600,7 +603,7 @@ nav .icon-burger .line {
   height: 25vh;
   width: 100%;
   color: white;
-  z-index: 10;
+  z-index: 12;
   
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&display=swap'); */
@@ -1251,7 +1254,7 @@ nav .icon-burger .line {
     width: 120px;
   }
 } 
-@media  (max-width: 500px) {
+@media  (max-width: 800px) {
   .team-front{
     flex-direction: column;
     height: 115vh;
@@ -1273,8 +1276,8 @@ nav .icon-burger .line {
     width: 100%;
   }
   .swi-1 img{
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
   }
 
   .swi-2{
