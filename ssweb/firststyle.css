@@ -399,7 +399,7 @@ nav .icon-burger .line {
     
     height: 80px;
     z-index: 20;
-    box-shadow: 0px 1.5px 15px rgb(101, 101, 101);
+    box-shadow: 0px 1.5px 15px rgb(84, 84, 84);
     
   
 
@@ -1254,7 +1254,7 @@ nav .icon-burger .line {
     width: 120px;
   }
 } 
-@media  (max-width: 800px) {
+@media  (max-width: 500px) {
   .team-front{
     flex-direction: column;
     height: 115vh;
@@ -1777,7 +1777,7 @@ out team work section */
 }
 .swork-2 p{
   color: rgba(254, 253, 253, 0.577);
-  font-size: 13px;
+  /* font-size: 13px; */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -1793,6 +1793,9 @@ out team work section */
   }
   .swork-1 h1{
     font-size: 30px;
+  }
+  .swork-2 p{
+    font-size: 18px;
   }
 }
 /* we do section */
